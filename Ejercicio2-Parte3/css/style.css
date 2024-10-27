@@ -1,0 +1,12 @@
+#box p {
+    color: blue;
+}
+.content .text {
+    color: green;
+}
+
+/* Al no poder usar un !important, le agregamos otra especificacion al selector de ID para que se vuelva aun mas relevante*/
+
+#box .text {
+    color: yellow;
+}    

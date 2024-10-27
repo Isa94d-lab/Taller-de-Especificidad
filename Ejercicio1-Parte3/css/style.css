@@ -1,0 +1,16 @@
+
+/* Estilo por etiqueta */
+h1 {
+    color: blue;
+}
+/* Estilo por clase */
+.content h1 {
+    color: green;
+}
+/* Estilo por ID */
+#main h1 {
+    color: red;
+}
+
+/* Debido a que el selector de mayor valor que se encuentra en el codigo es el selector de ID, sera el cual tendra mayor importanica, como concecuencia
+sera su propiedad la que tome relevanica, de tener en otro selector un !important seria diferente */
