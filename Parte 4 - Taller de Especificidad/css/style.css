@@ -1,0 +1,16 @@
+/* Usando un selector de clase, Le doy la propiedad a la letra del texto que sea de color blanco y un fondo negro (para que se vea la letra) 
+En este caso podria usar un selector de ID ya que en el index de esta parte se coloco # */
+.header h1{
+    color: white;
+    background-color: black;
+}
+
+/* Usando un selector de clase, Le doy la propiedad a la letra del texto que sea de color rojo */
+.content p{
+    color: red;
+}
+
+/* Usando un selector de ID, Le doy la propiedad a la letra del texto que sea de color gris */
+#footer {
+    color: gray;
+}
